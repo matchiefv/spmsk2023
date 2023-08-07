@@ -1,0 +1,98 @@
+body {
+    background-image: url(imej/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    
+    margin: 0px auto;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+    clear:left;
+}
+
+table.produk {
+    margin-top: 0px;
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+table.pembeli, table.penjual {
+    width: 680px;
+}
+
+table.maklumat {
+    width: 555px;
+}
+
+label { 
+    white-space: nowrap; 
+}
+
+div.carian {
+    text-align: right;
+    width: 40%;
+    height: 50px;
+    margin: -124px 20px;
+    float: right;
+}
+
+input[type="text"].carian {
+    width: 120px;
+    padding: 5px 15px; 
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+form.carian {
+    font-family: verdana;
+    font-size: 13px;
+}
+
+caption {
+	font-size: 16px;
+	font-weight: bold;
+	color: darkgreen;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+td, th {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+td.produk {
+    padding: 17px;
+    border: 2px solid mediumseagreen;
+    box-shadow: 7px 7px 5px rgba(98, 92, 92, 0.5);
+    background-color: lightyellow;
+}
+
+td.maklumat {
+    padding: 10px;
+}
+
+td.nama {
+    width: 150px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: moccasin;
+}
+
+tr:nth-child(even) {
+    background-color: papayawhip;
+} 
+
+th {
+    font-weight: bold;
+    color: white;
+    background-color: darkolivegreen;
+}
